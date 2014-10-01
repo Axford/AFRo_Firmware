@@ -1,18 +1,22 @@
+
+
 ##############################################################################
 #                                                                            #
-# Teacup - lean and efficient firmware for RepRap printers                   #
+# AFRo Firmware - For the AFRo robot arm                                     #     
 #                                                                            #
+# Forked from Teacup Firmware                                                #                                                                           #
 # by Triffid Hunter, Traumflug, jakepoz, Markus Hitter, many others          #
 #                                                                            #
 ##############################################################################
 
-For installation instructions, see
-http://reprap.org/wiki/Teacup_Firmware#Simple_Installation and/or
-http://reprap.org/wiki/Teacup_Firmware#Developer_Installation
 
-For documentation, see
-http://reprap.org/wiki/Teacup_Firmware
 
+
+
+
+
+
+From Teacup readme...
 
 ##############################################################################
 #                                                                            #
