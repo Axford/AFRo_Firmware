@@ -1,0 +1,4 @@
+build/pinio.o: pinio.c pinio.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h delay.h
+pinio.c pinio.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h delay.h :

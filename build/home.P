@@ -1,0 +1,4 @@
+build/home.o: home.c home.h dda.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h dda_queue.h timer.h simulator.h pinio.h gcode_parse.h
+home.c home.h dda.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h dda_queue.h timer.h simulator.h pinio.h gcode_parse.h :

@@ -1,0 +1,4 @@
+build/serial.o: serial.c serial.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h simulator.h memory_barrier.h
+serial.c serial.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h simulator.h memory_barrier.h :

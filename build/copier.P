@@ -1,0 +1,2 @@
+build/copier.o: copier.c
+copier.c :

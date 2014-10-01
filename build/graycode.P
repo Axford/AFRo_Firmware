@@ -1,0 +1,2 @@
+build/graycode.o: graycode.c
+graycode.c :

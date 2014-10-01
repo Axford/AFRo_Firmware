@@ -1,0 +1,4 @@
+build/delay.o: delay.c delay.h watchdog.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h
+delay.c delay.h watchdog.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h :

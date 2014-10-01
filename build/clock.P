@@ -1,0 +1,8 @@
+build/clock.o: clock.c clock.h pinio.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h sersendf.h simulator.h dda_queue.h dda.h \
+  timer.h watchdog.h debug.h heater.h temp.h serial.h memory_barrier.h \
+  joints.h ax12teacup.h
+clock.c clock.h pinio.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h sersendf.h simulator.h dda_queue.h dda.h :
+  timer.h watchdog.h debug.h heater.h temp.h serial.h memory_barrier.h :
+  joints.h ax12teacup.h :

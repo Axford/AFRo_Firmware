@@ -1,0 +1,4 @@
+build/sermsg.o: sermsg.c sermsg.h serial.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h simulator.h
+sermsg.c sermsg.h serial.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h simulator.h :

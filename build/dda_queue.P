@@ -1,0 +1,6 @@
+build/dda_queue.o: dda_queue.c dda_queue.h dda.h config_wrapper.h \
+  config.h arduino.h arduino_1280.h timer.h simulator.h serial.h sermsg.h \
+  temp.h delay.h sersendf.h clock.h memory_barrier.h
+dda_queue.c dda_queue.h dda.h config_wrapper.h :
+  config.h arduino.h arduino_1280.h timer.h simulator.h serial.h sermsg.h :
+  temp.h delay.h sersendf.h clock.h memory_barrier.h :

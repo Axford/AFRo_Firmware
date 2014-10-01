@@ -1,0 +1,4 @@
+build/usb_serial.o: usb_serial.c config_wrapper.h config.h arduino.h \
+  arduino_1280.h simulator.h
+usb_serial.c config_wrapper.h config.h arduino.h :
+  arduino_1280.h simulator.h :

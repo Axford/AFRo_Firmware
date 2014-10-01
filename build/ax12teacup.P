@@ -1,0 +1,2 @@
+build/ax12teacup.o: ax12teacup.c ax12teacup.h delay.h
+ax12teacup.c ax12teacup.h delay.h :

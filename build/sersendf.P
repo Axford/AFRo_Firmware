@@ -1,0 +1,4 @@
+build/sersendf.o: sersendf.c sersendf.h simulator.h serial.h \
+  config_wrapper.h config.h arduino.h arduino_1280.h sermsg.h
+sersendf.c sersendf.h simulator.h serial.h :
+  config_wrapper.h config.h arduino.h arduino_1280.h sermsg.h :

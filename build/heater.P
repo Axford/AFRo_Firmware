@@ -1,0 +1,4 @@
+build/heater.o: heater.c heater.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h simulator.h temp.h debug.h pinio.h crc.h sersendf.h
+heater.c heater.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h simulator.h temp.h debug.h pinio.h crc.h sersendf.h :

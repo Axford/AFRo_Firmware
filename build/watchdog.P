@@ -1,0 +1,4 @@
+build/watchdog.o: watchdog.c watchdog.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h
+watchdog.c watchdog.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h :

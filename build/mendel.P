@@ -1,0 +1,8 @@
+build/mendel.o: mendel.c config_wrapper.h config.h arduino.h \
+  arduino_1280.h fuses.h serial.h simulator.h dda_queue.h dda.h timer.h \
+  gcode_parse.h temp.h sermsg.h watchdog.h debug.h sersendf.h heater.h \
+  analog.h pinio.h clock.h intercom.h ax12teacup.h joints.h
+mendel.c config_wrapper.h config.h arduino.h :
+  arduino_1280.h fuses.h serial.h simulator.h dda_queue.h dda.h timer.h :
+  gcode_parse.h temp.h sermsg.h watchdog.h debug.h sersendf.h heater.h :
+  analog.h pinio.h clock.h intercom.h ax12teacup.h joints.h :

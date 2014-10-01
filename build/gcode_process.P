@@ -1,0 +1,8 @@
+build/gcode_process.o: gcode_process.c gcode_process.h gcode_parse.h \
+  dda.h config_wrapper.h config.h arduino.h arduino_1280.h dda_queue.h \
+  timer.h simulator.h watchdog.h delay.h serial.h sermsg.h temp.h \
+  heater.h sersendf.h pinio.h debug.h clock.h home.h
+gcode_process.c gcode_process.h gcode_parse.h :
+  dda.h config_wrapper.h config.h arduino.h arduino_1280.h dda_queue.h :
+  timer.h simulator.h watchdog.h delay.h serial.h sermsg.h temp.h :
+  heater.h sersendf.h pinio.h debug.h clock.h home.h :

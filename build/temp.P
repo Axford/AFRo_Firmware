@@ -1,0 +1,4 @@
+build/temp.o: temp.c temp.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h simulator.h debug.h sersendf.h heater.h
+temp.c temp.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h simulator.h debug.h sersendf.h heater.h :

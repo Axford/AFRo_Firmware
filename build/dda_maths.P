@@ -1,0 +1,4 @@
+build/dda_maths.o: dda_maths.c dda_maths.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h dda.h
+dda_maths.c dda_maths.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h dda.h :

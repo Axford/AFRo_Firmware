@@ -1,0 +1,4 @@
+build/timer.o: timer.c timer.h simulator.h memory_barrier.h arduino.h \
+  arduino_1280.h config_wrapper.h config.h dda_queue.h dda.h
+timer.c timer.h simulator.h memory_barrier.h arduino.h :
+  arduino_1280.h config_wrapper.h config.h dda_queue.h dda.h :

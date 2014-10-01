@@ -1,0 +1,6 @@
+build/joints.o: joints.c joints.h ax12teacup.h dda.h config_wrapper.h \
+  config.h arduino.h arduino_1280.h dda_queue.h timer.h simulator.h \
+  gcode_parse.h serial.h sermsg.h
+joints.c joints.h ax12teacup.h dda.h config_wrapper.h :
+  config.h arduino.h arduino_1280.h dda_queue.h timer.h simulator.h :
+  gcode_parse.h serial.h sermsg.h :

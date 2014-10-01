@@ -1,0 +1,8 @@
+build/dda_lookahead.o: dda_lookahead.c dda_lookahead.h config_wrapper.h \
+  config.h arduino.h arduino_1280.h dda.h dda_maths.h timer.h simulator.h \
+  delay.h serial.h sermsg.h gcode_parse.h dda_queue.h debug.h sersendf.h \
+  pinio.h memory_barrier.h
+dda_lookahead.c dda_lookahead.h config_wrapper.h :
+  config.h arduino.h arduino_1280.h dda.h dda_maths.h timer.h simulator.h :
+  delay.h serial.h sermsg.h gcode_parse.h dda_queue.h debug.h sersendf.h :
+  pinio.h memory_barrier.h :

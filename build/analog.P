@@ -1,0 +1,4 @@
+build/analog.o: analog.c analog.h config_wrapper.h config.h arduino.h \
+  arduino_1280.h temp.h memory_barrier.h
+analog.c analog.h config_wrapper.h config.h arduino.h :
+  arduino_1280.h temp.h memory_barrier.h :

@@ -1,0 +1,4 @@
+build/intercom.o: intercom.c intercom.h config_wrapper.h config.h \
+  arduino.h arduino_1280.h memory_barrier.h delay.h
+intercom.c intercom.h config_wrapper.h config.h :
+  arduino.h arduino_1280.h memory_barrier.h delay.h :
